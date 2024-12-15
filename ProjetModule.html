@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Live</title>
+    <link rel="stylesheet" href="C:\Users\taher\OneDrive\Bureau\Location.csv\ProjetModule\style3.css">
+</head>
+<body>
+    <header>
+        <img src="C:\Users\taher\OneDrive\Bureau\Location.csv\ProjetModule\channels4_profile.jpg" alt="Logo Sport Live" class="logo">
+        <h1>Bienvenue sur Sport Live</h1>
+        <nav>
+            <a href=https://www.skysports.com>Résultats</a>
+            <a href="#calendrier">Calendrier</a>
+            <a href="#contact">Contact</a>
+            <button id="loginButton" class="btn">Login</button>
+        </nav>
+    </header>
+    
+    <main>
+
+        <div id="loginPopup" class="popup hidden">
+            <div class="popup-content">
+                <h2>Login</h2>
+                <form>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                    
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    
+                    <button type="submit" class="btn-login">Login</button>
+                </form>
+                <button id="closePopup" class="close-btn">&times;</button>
+            </div>
+        </div>
+
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Suivez les derniers résultats en direct, le calendrier des matchs, et bien plus encore !</p>
+            <img src="C:\Users\taher\OneDrive\Bureau\Location.csv\ProjetModule\preview-page0.jpg" alt="Match en direct">
+        </section>
+        
+        <video id="promoVideo" controls>
+            <source src="C:\Users\taher\OneDrive\Bureau\Location.csv\ProjetModule\trollishly_youtube_video_downloader.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo HTML5.
+        </video>
+
+        
+        <audio id="backgroundMusic" autoplay>
+            <source src="C:\Users\taher\OneDrive\Bureau\Location.csv\ProjetModule\Percussion Sport Drums by Infraction [No Copyright Music] _ Football.mp3" type="audio/mp3">
+        </audio>
+
+        <section id="features">
+            <h2>Fonctionnalités principales</h2>
+            <ul>
+                <li>Résultats en direct</li>
+                <li>Calendrier des matchs</li>
+                <li>Statistiques détaillées</li>
+                <li>Alertes personnalisées pour vos équipes préférées</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="about-us" class="about-us">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Mission</h3>
+                        <p>
+                            We are passionate about this game. Our mission is to provide high-quality services. 
+                            We are committed to excellence, creativity.
+                        </p>
+                        <button id="aboutUsButton" class="cta-button">Learn More</button>
+                    </div>
+                    <div class="about-image">
+                        <img src="C:\Users\taher\OneDrive\Bureau\Location.csv\ProjetModule\fd6cd55a9230c536a3c30c04651d3670.jpg" alt="Our Team" class="team-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <p>&copy; 2024 Sport Live</p>
+        <p><a href="https://www.flashscore.com" target="_blank">Visitez Flashscore</a></p>
+    </footer>
+
+    <script src="script5.js"></script>
+</body>
+</html>
