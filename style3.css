@@ -79,7 +79,7 @@ main:hover {
 }
 
 
-.video-container, .image-container {
+.video-container {
     display: flex;
     justify-content: center; 
     align-items: center;    
@@ -249,7 +249,9 @@ footer a:hover {
 
 
 .about-image {
-    flex: 1;
+    display : flex;
+    justify-content : center;
+    align-items : center ;
     max-width: 500px;
     overflow: hidden;
     transition: transform 0.3s ease;
