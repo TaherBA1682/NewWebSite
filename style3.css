@@ -65,6 +65,7 @@ main {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
+    text-decoration-color: #2575fc;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -89,7 +90,6 @@ video {
 video:hover {
     transform: scale(1.05);
 }
-
 
 .popup.hidden {
     display: none !important;
