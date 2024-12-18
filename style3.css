@@ -70,22 +70,22 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    text-align : center ;
 }
-}
+
 
 main:hover {
     transform: translateY(-5px);
 }
 
 
-video {
-    width: 100%;
-    max-width: 800px;
-    border-radius: 8px;
-    margin-top: 20px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+.video-container, .image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;          
 }
+
 
 video:hover {
     transform: scale(1.05);
