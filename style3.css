@@ -66,6 +66,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     background-color: white ;
+    text-color: black ;
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
